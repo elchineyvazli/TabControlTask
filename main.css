@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.tab {
+  width: 700px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px #999;
+}
+.tab .tabTop {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  border-bottom: solid 1px #999;
+}
+.tab .tabTop .tabButton {
+  width: 120px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #999;
+  color: white;
+  cursor: pointer;
+}
+.tab .tabTop .tabButton:hover {
+  background-color: #888;
+}
+.tab .tabTop .tabButton2 {
+  border-left: solid 1px #777;
+}
+.tab .tabTop .tabButton3 {
+  border-left: solid 1px #777;
+}
+.tab .tabArea {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px #000;
+}
+.tab .tabArea .tabArea1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: white;
+}
+.tab .tabArea .tabArea2 {
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: blue;
+  color: white;
+}
+.tab .tabArea .tabArea3 {
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
